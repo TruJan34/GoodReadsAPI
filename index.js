@@ -4,7 +4,7 @@ var parser = new xml2js.Parser({ explicitArray: false });
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-const port = 4000;
+const port = process.env.PORT || 4000;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
