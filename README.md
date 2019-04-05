@@ -8,3 +8,4 @@ Steps to run this API service.
 3. run "npm install" command.
 3. run "node index.js" command.
 4. you will see "Example app listening on port 4000!". Then your done!
+5. Open "http://localhost:4000" in browser. You will see "Working...!" message

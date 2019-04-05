@@ -49,4 +49,8 @@ app.post('/book', (req, res) => {
     });
 });
 
+app.get('/',(req,res) => {
+  res.send('Working...!');
+});
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
